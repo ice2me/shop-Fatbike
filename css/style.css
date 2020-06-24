@@ -1,0 +1,52 @@
+/*
+Error: Invalid CSS after "9px 9px 13px 0px ": expected expression (e.g. 1px, bold), was "#1b09817c"
+        on line 117 of E:\Code\WEB_Projects\NOT_Completed_Projects\FatBike\css\style.sass
+
+112: 	justify-content: flex-start
+113: 	flex-direction: column
+114: 	width: 250px
+115: 	height: 100%
+116: 	background-image: linear-gradient( to right, $blueDark, $violet)
+117: 	box-shadow: 9px 9px 13px 0px #1b09817c
+118: 	position: fixed
+119: 	left: -250px
+120: 	top: 0
+121: 	z-index: 20
+122: 	transition: all ease 1s
+
+Backtrace:
+E:\Code\WEB_Projects\NOT_Completed_Projects\FatBike\css\style.sass:117
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:761:in `assert_done'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:69:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:228:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script.rb:27:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:1177:in `parse_script'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:749:in `parse_property'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:708:in `parse_property_or_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:667:in `parse_line'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:540:in `build_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:549:in `block in build_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:542:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:542:in `build_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"9px 9px 13px 0px \": expected expression (e.g. 1px, bold), was \"#1b09817c\"\A         on line 117 of E:\Code\WEB_Projects\NOT_Completed_Projects\FatBike\css\style.sass\A \A 112: 	justify-content: flex-start\A 113: 	flex-direction: column\A 114: 	width: 250px\A 115: 	height: 100%\A 116: 	background-image: linear-gradient( to right, $blueDark, $violet)\A 117: 	box-shadow: 9px 9px 13px 0px #1b09817c\A 118: 	position: fixed\A 119: 	left: -250px\A 120: 	top: 0\A 121: 	z-index: 20\A 122: 	transition: all ease 1s"; }
